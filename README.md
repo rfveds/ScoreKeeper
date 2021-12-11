@@ -19,7 +19,7 @@
 ## Technologies Used
 - HTML
 - JavaScript
-- CSS
+- Bulma 
  
 ## Features
 List the ready features here:
