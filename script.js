@@ -15,15 +15,19 @@ const winningScoreSelect = document.querySelector('#playTo')
 let winningScore = 3
 let isGameOver = false
 
-function updateScores(player, opponent ){
+function updateScores(player, opponent) {
     if (!isGameOver) {
         player.score += 1
         if (player.score === winningScore) {
-            isGameOver = true
-            player.display.classList.add('has-text-success')
-            opponent.display.classList.add('has-text-danger')
-            player.button.disabled = true
-            opponent.button.disabled = true
+            if (player.score - opponent.score > 2) {
+                isGameOver = true
+                player.display.classList.add('has-text-success')
+                opponent.display.classList.add('has-text-danger')
+                player.button.disabled = true
+                opponent.button.disabled = true
+            } else {
+                winningScore++
+            }
         }
         player.display.textContent = player.score
     }
@@ -39,14 +43,14 @@ playerTwo.button.addEventListener('click', function () {
 
 resetButton.addEventListener('click', reset)
 
-winningScoreSelect.addEventListener('change', function (){
+winningScoreSelect.addEventListener('change', function () {
     winningScore = parseInt(this.value)
     reset()
 })
 
 function reset() {
     isGameOver = false
-    for(let player of [playerOne, playerTwo]){
+    for (let player of [playerOne, playerTwo]) {
         player.score = 0
         player.display.textContent = player.score
         player.display.classList.remove('has-text-success', 'has-text-danger')
