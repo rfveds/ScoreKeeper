@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            Ping Pong Score Keeper
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <h1 class="tittle is-1">
+                                <span id="playerOneDisplay">0</span>
+                                <span>to</span>
+                                <span id="playerTwoDisplay">0</span>
+                            </h1>
+                            <label class="is-inline is-large label" for="playTo">Winning Score</label>
+                            <div class="select is-rounded">
+                                <select name="" id="playTo">
+                                    <option value="3">3</option>
+                                    <option value="5">5</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <button id="p1b" class="button  has-text-white has-background-success card-footer-item ">+1 Player One</button>
+                        <button id="p2b" class="button  has-text-white has-background-info card-footer-item ">+1 Player Two</button>
+                        <button id="reset" class="button has-text-white has-background-danger card-footer-item">Reset</button>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
