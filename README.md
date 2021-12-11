@@ -26,6 +26,7 @@ List the ready features here:
 - Two-player score counting
 - Resetting points
 - Choosing the number of points you need to win
+- Win by 2
 
 ## Screenshots
  TODO
@@ -38,7 +39,6 @@ Project is: _in progress_
 
 ## Room for Improvement
 To do:
-- Win by 2
 - Multiple players
 - Multiple games
 - Names for players
