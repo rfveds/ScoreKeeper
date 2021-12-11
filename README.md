@@ -30,7 +30,7 @@ List the ready features here:
 - Names for players
 
 ## Screenshots
- TODO
+ !(./img/screenShot.png)
  
 ## Setup
 To run this project copy repository and open index.html
