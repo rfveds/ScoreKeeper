@@ -47,4 +47,4 @@ To do:
 - This project was based on [this tutorial](https://www.udemy.com/course/the-web-developer-bootcamp).
 
 ## Contact
-Created by Karol Kijowski - feel free to contact me!
+Created by Karol Kijowski
