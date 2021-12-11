@@ -36,9 +36,7 @@ To run this project copy repository and open index.html
 ## Project Status
 Project is: _in progress_ 
 
-
 ## Room for Improvement
-
 To do:
 - Win by 2
 - Multiple players
@@ -46,10 +44,7 @@ To do:
 - Names for players
 
 ## Acknowledgements
-Give credit here.
 - This project was based on [this tutorial](https://www.udemy.com/course/the-web-developer-bootcamp).
-
-
 
 ## Contact
 Created by Karol Kijowski - feel free to contact me!
