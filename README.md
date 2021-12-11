@@ -27,6 +27,7 @@ List the ready features here:
 - Resetting points
 - Choosing the number of points you need to win
 - Win by 2
+- Names for players
 
 ## Screenshots
  TODO
@@ -41,7 +42,6 @@ Project is: _in progress_
 To do:
 - Multiple players
 - Multiple games
-- Names for players
 
 ## Acknowledgements
 - This project was based on [this tutorial](https://www.udemy.com/course/the-web-developer-bootcamp).
